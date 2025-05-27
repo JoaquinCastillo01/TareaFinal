@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos.css">
+    <title>Agregar un registro</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Registrar nueva mascota</h1>
+        <form action="/add" method="post">
+            <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" maxlength="45" required placeholder="Ingresa nombre de la mascota">
+                <br><br>
+            <label for="edad">Edad:</label>
+                <input type="text" name="edad" maxlength="45" required placeholder="Ingresa edad de la mascota">
+                <br><br>
+            <label for="especie">Especie:</label>
+                <input type="text" name="especie" maxlength="45" required placeholder="Ingresa la especie de la mascota">
+                <br><br>
+            <label for="raza">Raza:</label>
+                <input type="text" name="raza" maxlength="45" required placeholder="Ingresa la raza de la mascota">
+                <br><br>
+            <button type="submit">Registrar</button>
+        </form>
+        <br><br>
+        <a href="/" class="link">Regresar a la pagina Principal</a>
+    </div>
+</body>
+</html>

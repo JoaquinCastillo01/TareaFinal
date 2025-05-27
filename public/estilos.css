@@ -1,0 +1,30 @@
+.container{
+    background-color: #af5cfc;
+    color: rgb(126, 0, 109);
+    border-top: #01038b solid;
+    border-bottom: #01038b solid;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.link {
+    color: rgb(203, 206, 37);
+}
+
+.r1{
+    border-top: #01038b solid;
+    border-bottom: #01038b solid;
+}
+
+img{
+    height: 300px;
+    width: auto;
+}
+
+.zoom img {
+    transition: transform 0.3s ease;
+}
+
+.zoom img:hover {
+    transform: scale(1.1);
+}
